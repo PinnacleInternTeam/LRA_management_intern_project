@@ -17,11 +17,11 @@ export default function Login() {
     if (name == "sam" && password == "admin") {
    
     navigate('/home1');
-    localStorage.setItem("authenticated", true);
+    localStorage.setItem("authenticated",1);
   
     } else if (name == "sam" && password == "user") {
         navigate('/home2');
-    localStorage.setItem("authenticated", true);
+    localStorage.setItem("authenticated", 1);
 
     } else {
       alert("invalid");
