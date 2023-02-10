@@ -8,11 +8,6 @@ export default function Login() {
   let navigate = useNavigate();
   
 
-
-  
-
-        
-
   const loginn = () => {
     if (name == "sam" && password == "admin") {
    

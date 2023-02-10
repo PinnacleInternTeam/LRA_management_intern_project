@@ -5,15 +5,12 @@ export default function Home1() {
     let navigate = useNavigate();
 
     let aut= localStorage.getItem("authenticated")
-    //console.log(aut);
-    
-useEffect(() => {
-    if(aut==false){
-        console.log(aut);
+    console.log(aut);
+  
+    if(!aut){
         navigate('/Login');
         localStorage.setItem("authenticated", false);
     }
-}, [])
 
         
     
