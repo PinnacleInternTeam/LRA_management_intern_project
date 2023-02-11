@@ -1,7 +1,8 @@
 .cont{
-    /* background-color: rgb(5, 7, 7); */
-    background-image: url('../../assets/bck.jpg');
+     background-color: rgb(5, 12, 31); 
+   
     width:500px;
     height:500px;
     border-radius: 10%;
 }
+

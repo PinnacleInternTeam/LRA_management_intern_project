@@ -6,7 +6,7 @@ import Login from './components/Login';
 import Home1 from "./components/home1";
 import Home2 from "./components/home2";
 import App from './App'
-import './index.css'
+// import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 <BrowserRouter>
