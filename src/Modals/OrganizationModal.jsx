@@ -27,19 +27,25 @@ export default function OrganizationModal() {
         <Modal.Body>
           <label>Organization Name : </label>
           <br></br>
-          <input type="text" placeholder="Organization Name"></input>
+          <input  
+          //value={Name}
+          type="text" 
+          placeholder="Organization Name"></input>  <br></br>
 
-          <label>Email : </label>
+          <label>Email : </label>  
           <br></br>
-          <input type="text" placeholder="Email"></input>
+          <input 
+         // value={Email}
+          type="text" 
+          placeholder="Email"></input>    <br></br>
 
           <label>Address : </label>
           <br></br>
           <textarea
-            rows="7"
-            cols="5"
+            rows="5"
+            cols="20"
             placeholder="Organization Name"
-          ></textarea>
+          ></textarea><br></br>
 
           <label>Number of User : </label>
           <br></br>
