@@ -1,0 +1,12 @@
+.month_count{
+    background-color: aliceblue;
+    margin-left: 35px;
+    color: black;
+    padding: 10%;
+    border-radius: 10%;
+    text-align: center;
+}
+.card{
+   height: 150px;
+   width: 400px; 
+}
