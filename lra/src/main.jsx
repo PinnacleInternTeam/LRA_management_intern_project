@@ -18,7 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                   <Route exact path="/home1" element={<Home1/>} /> 
                   <Route exact path="/home2" element={<Home2/>} /> 
                  
-                <Route element={<Routefile/>} />
+                {/* <Route element={<Routefile/>} /> */}
   </Routes>
    
   </React.StrictMode>
